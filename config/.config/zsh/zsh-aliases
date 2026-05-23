@@ -43,3 +43,6 @@ alias vim='nvim'
 
 # fd
 alias fd='fdfind'
+
+# meld
+alias meld='flatpak run org.gnome.meld'

@@ -5,3 +5,5 @@ font-family="Ubuntu Sans Mono"
 font-size=9
 
 keybind = global:f11=toggle_fullscreen
+keybind = global:ctrl+shift+"=new_split:right
+keybind = global:ctrl+shift+%=new_split:down

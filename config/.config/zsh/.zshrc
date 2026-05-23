@@ -60,3 +60,4 @@ zsh_add_plugin "hlissner/zsh-autopair"
 # More completions https://github.com/zsh-users/zsh-completions
 
 source <(fzf --zsh)
+eval "$(zoxide init zsh)"

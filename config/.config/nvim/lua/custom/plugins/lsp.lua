@@ -179,7 +179,6 @@ return {
         --   require("twoslash-queries").attach(client, buffer_number)
         -- end,
         settings = {
-          -- tsserver_path = "~/.bun/bin/tsgo",
           -- Performance: separate diagnostic server for large projects
           separate_diagnostic_server = true,
           -- When to publish diagnostics

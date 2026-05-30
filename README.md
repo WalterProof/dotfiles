@@ -2,10 +2,18 @@
 
 ## Dependencies
 
-- zsh
+- bat
+- neovim
+- fd
 - fzf
-- tmux
+- ghostty
+- kitty
+- lf
+- pistol
 - ripgrep
+- tmux
+- zoxide
+- zsh
 
 ## Installing
 
@@ -54,3 +62,5 @@ Install plugins with `prefix + I`
 - <https://git.sr.ht/~whynothugo/dotfiles/>
 - <https://github.com/dreamsofcode-io/tmux>
 - <https://afridi.dev/articles/organize-your-zsh-configurations-and-plugins/>
+- <https://github.com/edr3x/tmux-sessionizer>
+- <https://github.com/Chaitanyabsprip/tmux-harpoon>

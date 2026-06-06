@@ -1,4 +1,6 @@
 config/.config/tmux/plugins
 config/.config/zsh/plugins
+config/.config/litecli/log
+config/.config/pgcli/log
 zsh-secrets
 .zcompdump

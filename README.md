@@ -12,6 +12,7 @@
 - pistol
 - ripgrep
 - tmux
+- uv
 - zoxide
 - zsh
 
@@ -40,6 +41,14 @@ see [docs](https://github.com/gokcehan/lf/wiki/Previews#with-kitty-and-pistol)
 ### tmux
 
 Install plugins with `prefix + I`
+
+### uv
+
+using it for python cli tools (mycli, pgcli, litecli...): 
+
+```
+uv tool install <tool>
+```
 
 ### conf
 

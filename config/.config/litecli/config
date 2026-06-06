@@ -18,6 +18,12 @@ destructive_warning = True
 # %USERPROFILE% is typically C:\Users\{username}
 log_file = default
 
+# history_file location.
+# In Unix/Linux: ~/.config/litecli/history
+# In Windows: %USERPROFILE%\AppData\Local\dbcli\litecli\history
+# %USERPROFILE% is typically C:\Users\{username}
+history_file = default
+
 # Default log level. Possible values: "CRITICAL", "ERROR", "WARNING", "INFO"
 # and "DEBUG". "NONE" disables logging.
 log_level = INFO
@@ -41,7 +47,7 @@ table_format = ascii
 # manni, igor, xcode, vim, autumn, vs, rrt, native, perldoc, borland, tango, emacs,
 # friendly, monokai, paraiso, colorful, murphy, bw, pastie, paraiso, trac, default,
 # fruity.
-# Screenshots at http://mycli.net/syntax
+# See the LiteCLI README for syntax examples
 syntax_style = default
 
 # Keybindings: Possible values: emacs, vi.
@@ -122,7 +128,7 @@ output.even-row = ""
 
 # Startup commands
 # litecli commands or sqlite commands to be executed on startup.
-# some of them will require you to have a database attached. 
+# some of them will require you to have a database attached.
 # they will be executed in the same order as they appear in the list.
 [startup_commands]
 #commands = ".tables", "pragma foreign_keys = ON;"
